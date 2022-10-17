@@ -28,6 +28,10 @@ h2 {
     font-size: 2.5rem;
 }
 
+p {
+    line-height: 2;
+}
+
 .flex {
     display: flex;
     justify-content: space-between;
@@ -169,6 +173,29 @@ section {
 .benefits > h2 {
     margin-bottom: 50px;
 }
+
+/* section about us */
+.col-big {
+    width: 70%;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.col-big > * {
+    margin-bottom: 30px;
+}
+
+.col-small {
+    width: 25%;
+}
+
+blockquote > p {
+    font-size: 1.5rem;
+    color: #9792e4;
+    text-align: left;
+    line-height: 1.5;
+}
+
 /* footer rules */
 footer {
     color: #fff;
