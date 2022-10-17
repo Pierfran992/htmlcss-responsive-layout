@@ -9,6 +9,7 @@
 .container {
     width: 60%;
     margin: 0 auto;
+    text-align: center;
 }
 
 li {
@@ -19,9 +20,19 @@ a {
     color: #fff;
     text-decoration: none;
 }
+img {
+    max-width: 100%;
+}
 
 .flex {
     display: flex;
+    justify-content: space-between;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
     justify-content: space-between;
 }
 
@@ -78,6 +89,7 @@ section {
 }
 
 .row.purple {
+    color: #fff;
     background-color: #9792e4;
 }
 
@@ -93,9 +105,33 @@ section {
     /* debug */
     min-height: 300px;
 }
-
+/* section functions */
 .card.medium {
     width: calc( (99% / 3) * 2);
+}
+/* section strategic planning*/
+.container.small {
+    width: 40%;
+}
+
+/* section testimonials */
+.testimonials > * {
+    margin: 30px 0;
+}
+
+.card.big {
+    background-color: #9792e4;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.testimonials h5 {
+    font-weight: lighter;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    color: #9792e4;
 }
 
 /* footer rules */
@@ -106,7 +142,6 @@ footer {
 }
 
 .container.footer-text {
-    text-align: center;
     width: 22%;
     height: 100%;
 }
