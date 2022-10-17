@@ -238,11 +238,13 @@ footer a{
 
 /* rules responsive tablet */
 @media screen and (max-width: 810px) {
-    
+    /* general rules */
     .container {
         width: 90%;
         margin: 0 auto;
     }
+
+    /* header rules */
     .nav-desktop {
         display: none;
     }
@@ -251,6 +253,14 @@ footer a{
         display: block;
     }
 
+    /* main */
+
+    /* section start */
+    .container.started {
+        width: 60%;
+    }
+
+    /* footer */
     .container.footer-text {
         width: 60%;
     }
@@ -259,6 +269,14 @@ footer a{
 /* rules responsive mobile */
 @media screen and (max-width: 375px) {
     
+    /* main */
+
+    /* section start */
+    .container.started {
+        width: 90%;
+    }
+
+    /* footer */
     .container.footer-text {
         width: 90%;
     }
