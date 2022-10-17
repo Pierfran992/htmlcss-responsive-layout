@@ -296,6 +296,15 @@ footer a{
 
     /* main */
 
+    /* section strategic planning */
+    .container.small {
+        width: 90%;
+    }
+
+    .card-planning, .card-planning.white {
+        width: 100%;
+    }
+
     /* section start */
     .container.started {
         width: 60%;
