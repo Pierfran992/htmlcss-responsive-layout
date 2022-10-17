@@ -61,6 +61,12 @@ header .btn {
     background-color: #fff;
 }
 
+.nav-mobile-tablet {
+    font-size: 2rem;
+    color: #fff;
+    display: none;
+}
+
 /* main rules */
 
 main {
@@ -72,6 +78,7 @@ footer {
     color: #fff;
     background-color: #333333;
     height: 222px;
+    font-size: 1rem;
 }
 
 .container.footer-text {
@@ -87,4 +94,32 @@ footer p {
 footer a{
     color: #9792e4;
     text-decoration: underline;
+}
+
+/* rules responsive tablet */
+@media screen and (max-width: 810px) {
+    
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .nav-desktop {
+        display: none;
+    }
+
+    .nav-mobile-tablet {
+        display: block;
+    }
+
+    .container.footer-text {
+        width: 60%;
+    }
+}
+
+/* rules responsive mobile */
+@media screen and (max-width: 375px) {
+    
+    .container.footer-text {
+        width: 90%;
+    }
 }
