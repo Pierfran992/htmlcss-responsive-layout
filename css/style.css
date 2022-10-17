@@ -22,6 +22,7 @@ a {
 
 .flex {
     display: flex;
+    justify-content: space-between;
 }
 
 .btn {
@@ -47,7 +48,6 @@ header .container {
 }
 
 header > .flex {
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -71,6 +71,31 @@ header .btn {
 
 main {
     margin-top: 120px;
+}
+
+section {
+    margin-top: 50px;
+}
+
+.row.purple {
+    background-color: #9792e4;
+}
+
+.row .container {
+    margin-bottom: 30px;
+}
+
+.card {
+    width: calc(95% / 3);
+    background-color: #b5ddff;
+    border-radius: 20px;
+    padding: 15px;
+    /* debug */
+    min-height: 300px;
+}
+
+.card.medium {
+    width: calc( (99% / 3) * 2);
 }
 
 /* footer rules */
