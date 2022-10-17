@@ -185,11 +185,39 @@ section {
     width: 25%;
 }
 
+.col-big > h2 {
+    color: #9792e4;
+}
+
+.col-small > * {
+    padding-bottom: 20px;
+}
+
+.slot-img-about {
+    position: relative;
+}
+
+#img-about {
+    border-radius: 50%;
+}
+
+#quote {
+    font-size: 5rem;
+    color: #9792e4;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 blockquote > p {
     font-size: 1.5rem;
     color: #9792e4;
     text-align: left;
     line-height: 1.5;
+}
+
+.linkedin-link {
+    font-size: 0.8rem;
 }
 
 /* section start */
