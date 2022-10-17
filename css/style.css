@@ -115,30 +115,43 @@ section {
     width: 40%;
 }
 
-.card-planning {
-    width: 50%;
+.container.small.flex {
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
-.card-planning > * {
-    padding: 50px;
+.card-planning {
+    width: 55%;
 }
 
 .card-planning.white {
+    width: 40%;
     color: black;
     background-color: #fff;
     border-radius: 20px;
 }
 
 .card-planning.white > * {
-    padding: 0;
+    padding: 10px;
 }
 
+.slot-img-planning {
+    margin-bottom: 50px;
+}
 .slot-text {
     text-align: left;
 }
 
 .slot-text > * {
     padding: 20px 0;
+}
+
+.slot-text.right {
+    text-align: center;
+}
+
+.slot-text.right a {
+    color: black;
 }
 
 /* section testimonials */
