@@ -97,15 +97,12 @@ section {
     padding: 50px 0;
 }
 
-.row .container {
-    margin-bottom: 30px;
-}
-
 .card {
     width: calc(95% / 3);
     background-color: #b5ddff;
     border-radius: 20px;
     padding: 15px;
+    margin-bottom: 20px;
     /* debug */
     min-height: 300px;
 }
@@ -155,7 +152,7 @@ section {
     border-radius: 40px;
 }
 
-.testimonials h5 {
+.testimonials h5, .started h5 {
     font-weight: lighter;
 }
 
@@ -167,7 +164,6 @@ section {
 .card.white {
     color: black;
     background-color: #fff;
-    margin-bottom: 20px;
 }
 
 .benefits > h2 {
@@ -194,6 +190,29 @@ blockquote > p {
     color: #9792e4;
     text-align: left;
     line-height: 1.5;
+}
+
+/* section start */
+.container.started {
+    width: 25%;
+}
+
+.started > * {
+    margin-bottom: 30px;
+}
+
+#its-free {
+    color: #fdc15f;
+    font-size: 3rem;
+}
+
+.started .btn {
+    background-color: #fff;
+    color: #9792e4;
+}
+
+#privacy-policy {
+    text-decoration: underline;
 }
 
 /* footer rules */
