@@ -103,18 +103,17 @@ section {
     background-color: #b5ddff;
     border-radius: 20px;
     margin-bottom: 20px;
-    /* debug */
-    min-height: 300px;
+    text-align: center;
 }
 /* section functions */
 .card.medium {
     width: calc( (99% / 3) * 2);
+    text-align: left;
     display: flex;
 }
 
 .text-card {
     color: #5a6e7f;
-    text-align: left;
     font-weight: bold;
     padding: 20px;
 }
@@ -214,7 +213,7 @@ section {
 }
 
 .slot-img-testimonial {
-    padding: 0 20px;
+    padding: 20px;
 }
 
 .img-testimonial {
@@ -226,13 +225,31 @@ section {
 }
 
 /* section benefits */
+.benefits>h2 {
+    margin-bottom: 50px;
+}
+
 .card.white {
     color: black;
     background-color: #fff;
+    text-align: left;
+    padding: 20px;
 }
 
-.benefits > h2 {
-    margin-bottom: 50px;
+.card.white > * {
+    padding-bottom: 20px;
+}
+
+.card.white > h2, .card.white > h3 {
+    color: #9792e4;
+}
+
+.card.white > h2 {
+    font-size: 3rem;
+}
+
+.card.white > h3 {
+    font-size: 2rem;
 }
 
 /* section about us */
