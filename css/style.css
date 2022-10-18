@@ -209,11 +209,12 @@ section {
 
 .card.big blockquote > * {
     color: #fff;
+    padding: 20px;
     font-size: 1rem;
 }
 
-.card.big * {
-    padding: 20px;
+.slot-img-testimonial {
+    padding: 0 20px;
 }
 
 .img-testimonial {
@@ -361,6 +362,13 @@ footer a{
         width: 100%;
     }
 
+    /* section testimonials */
+    .card.big {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     /* section start */
     .container.started {
         width: 60%;
@@ -385,6 +393,13 @@ footer a{
     .card.medium, .card {
         display: inline-block;
         width: 80%;
+    }
+
+    /* section testimonials */
+    .card.big {
+        text-align: center;
+        display: block;
+        padding: 20px;
     }
 
     /* section about us */
