@@ -194,6 +194,9 @@ section {
     background-color: #9792e4;
     width: 100%;
     border-radius: 40px;
+    text-align: left;
+    display: flex;
+    align-items: center;
 }
 
 .testimonials h5, .started h5 {
@@ -202,6 +205,23 @@ section {
 
 .testimonials h2 {
     color: #9792e4;
+}
+
+.card.big blockquote > * {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.card.big * {
+    padding: 20px;
+}
+
+.img-testimonial {
+    border-radius: 50%;
+}
+
+.card.big cite {
+    font-weight: bold;
 }
 
 /* section benefits */
