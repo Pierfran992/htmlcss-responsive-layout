@@ -279,7 +279,7 @@ footer a{
 }
 
 /* rules responsive tablet */
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 768px) {
     /* general rules */
     .container {
         width: 90%;
@@ -318,9 +318,15 @@ footer a{
 }
 
 /* rules responsive mobile */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
     
     /* main */
+
+    /* section about us */
+    .col-big, .col-small {
+        width: 90%;
+        text-align: left;
+    }
 
     /* section start */
     .container.started {
