@@ -386,6 +386,11 @@ footer a{
         margin-right: auto;
     }
 
+    /* section testimonials */
+    .card.white {
+        width: calc(95% / 2);
+    }
+
     /* section start */
     .container.started {
         width: 60%;
@@ -417,6 +422,13 @@ footer a{
         text-align: center;
         display: block;
         padding: 20px;
+    }
+
+    /* section testimonials */
+    .card.white {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* section about us */
